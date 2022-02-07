@@ -1,0 +1,30 @@
+{
+  "name": "examen-enache_razvan",
+  "version": "1.0.0",
+  "description": "Examen Enache Razvan",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "sequelize",
+    "rest",
+    "api",
+    "postgresql"
+  ],
+  "author": "Enache Razvan",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^5.21.3",
+    "sqlite3": "^5.0.2"
+  }
+}
